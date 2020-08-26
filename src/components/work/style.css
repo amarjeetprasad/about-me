@@ -1,0 +1,38 @@
+.work .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx{
+    width: 50%;
+    padding: 20px;
+}
+.work .content .workBx img{
+    max-width: 100%;
+    border: 2px solid gray;
+    transition: all 0.5s;
+}
+.work .content .workBx img:hover{
+    transform: scale(1.05);
+}
+
+.work .content .workBx h1{
+    font-size: 35px;
+    color: #d54062;
+}
+
+.work .content .workBx h2{
+    font-size: 15px;
+    color: #322f3d;
+}
+
+
+
+
+@media(max-width:991px)
+{
+    .work .content .workBx {
+        width: 100%;
+        padding: 10px;
+    }
+}
